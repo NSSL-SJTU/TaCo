@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Model weights and checkpoints
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Training outputs
+runs/
+output/
+outputs/
+checkpoint/
+checkpoints/
+*.log
+events.out.tfevents.*
+
+# Local environment
+.env
+.env.*
+!.env.example
